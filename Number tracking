@@ -1,0 +1,12 @@
+import opencage
+import phonenumbers
+import folium
+from phonenumbers import geocoder
+number="+919710815558"
+Number= phonenumbers.parse(number)
+location=geocoder.description_for_number(Number, "en")
+print("location:",location)
+from phonenumbers import carrier
+service=phonenumbers.parse(number)
+print("Siganl:",carrier.name_for_number(service, "en"))
+
