@@ -2,7 +2,7 @@ import opencage
 import phonenumbers
 import folium
 from phonenumbers import geocoder
-number="give your number"
+number="give number"
 Number= phonenumbers.parse(number)
 location=geocoder.description_for_number(Number, "en")
 print("location:",location)
