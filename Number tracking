@@ -1,3 +1,5 @@
+//Just for educational Purpose Only
+
 import opencage
 import phonenumbers
 import folium
